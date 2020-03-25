@@ -1,10 +1,10 @@
 <?php
 
 $path = $_SERVER['argv'][1];
-$controller = substr($path, strpos($path, "/", 1));
+$controller = substr($path, strpos($path, "/"));
 
 switch ($controller) {
-    case "/home":
+    case "home":
         require_once("src/home/index.php");
         break;
 

@@ -14,13 +14,13 @@ function solve() {
 
     echo $1 >>t2.txt
     if [[ $1 =~ .+\..+ ]]; then
-        path=docs$1
+        path=docs/$1
         echo Generating \'$path\'
 
         mkfile $path
-        cp src$1 $(dirname "$path")
+        cp src/$1 $(dirname "$path")
     else
-        path=docs$1.html
+        path=docs/$1.html
         echo Generating \'$path\'
 
         mkfile $path
@@ -29,7 +29,7 @@ function solve() {
     fi
 }
 
-echo '/home' >t1.txt
+echo 'home' >t1.txt
 echo '' >t2.txt
 
 rm -r docs
