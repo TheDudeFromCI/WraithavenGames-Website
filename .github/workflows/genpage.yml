@@ -37,11 +37,15 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Rebuilt site." -a
+          if ! git diff-index --quiet HEAD --; then
+            echo "::set-env name=PUSH_GIT::true"
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "Rebuilt site." -a
+          fi
 
       - name: Push changes
+        if: env.PUSH_GIT
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
