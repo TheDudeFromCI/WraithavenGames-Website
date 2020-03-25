@@ -7,7 +7,7 @@ require_once('src/home/header.php')
 
 			<div
 				class="blog m-2 col-sm-6 col-md-4 col-lg-3 d-flex flex-grow-1 d-flex flex-column p-0">
-				<img src="/images/goggles.png" alt="blog1 image" class="w-100">
+				<img src="images/goggles.png" alt="blog1 image" class="w-100">
 				<h4 class="p-3">Looks like we're getting a new website!</h4>
 				<p class="px-3">Fusce ullamcorper ultrices venenatis. Ut
 					pulvinar vitae neque fringilla vulputate. Vestibulum
@@ -19,7 +19,7 @@ require_once('src/home/header.php')
 			</div>
 			<div
 				class="blog m-2 col-sm-6 col-md-4 col-lg-3 d-flex flex-grow-1 d-flex flex-column p-0">
-				<img src="/images/goggles.png" alt="blog1 image" class="w-100">
+				<img src="images/goggles.png" alt="blog1 image" class="w-100">
 				<h4 class="p-3">Looks like we're getting a new website!</h4>
 				<p class="px-3">Fusce ullamcorper ultrices venenatis. Ut
 					pulvinar vitae neque fringilla vulputate. Vestibulum
@@ -31,7 +31,7 @@ require_once('src/home/header.php')
 			</div>
 			<div
 				class="blog m-2 col-sm-6 col-md-4 col-lg-3 d-flex flex-grow-1 d-flex flex-column p-0">
-				<img src="/images/goggles.png" alt="blog1 image" class="w-100">
+				<img src="images/goggles.png" alt="blog1 image" class="w-100">
 				<h4 class="p-3">Looks like we're getting a new website!</h4>
 				<p class="px-3">Fusce ullamcorper ultrices venenatis. Ut
 					pulvinar vitae neque fringilla vulputate. Vestibulum
@@ -43,7 +43,7 @@ require_once('src/home/header.php')
 			</div>
 			<div
 				class="blog m-2 col-sm-6 col-md-4 col-lg-3 d-flex flex-grow-1 d-flex flex-column p-0">
-				<img src="/images/goggles.png" alt="blog1 image" class="w-100">
+				<img src="images/goggles.png" alt="blog1 image" class="w-100">
 				<h4 class="p-3">Looks like we're getting a new website!</h4>
 				<p class="px-3">Fusce ullamcorper ultrices venenatis. Ut
 					pulvinar vitae neque fringilla vulputate. Vestibulum

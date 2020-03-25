@@ -2,7 +2,7 @@
 	<div class="row mb-3">
 		<div class="col-0 col-lg-2"></div>
 		<div class="col-12 col-sm-3 col-lg-2 d-flex flex-column pt-2 pb-3">
-			<img src="/images/devonel_avatar.png"
+			<img src="images/devonel_avatar.png"
 				class="rounded-circle mx-auto my-auto"
 				style="width: 100px; height: 100px;">
 		</div>
