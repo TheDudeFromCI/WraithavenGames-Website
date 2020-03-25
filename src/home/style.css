@@ -1,0 +1,160 @@
+body {
+	background-color: #121212;
+}
+
+.dark-link {
+	color: rgba(255, 255, 255, 0.5);
+	background: transparent;
+	text-decoration: none;
+
+	border: none;
+}
+
+.dark-link:hover, .dark-link:focus, .dark-link:active,
+	.dark-link.btn-primary:not(:disabled):not(.disabled):active {
+	color: rgba(255, 255, 255, 0.75);
+	background: transparent;
+	text-decoration: none;
+
+	border: none;
+	box-shadow: none;
+}
+
+.darker-link {
+	color: rgba(255, 255, 255, 0.25);
+	background: transparent;
+	text-decoration: none;
+}
+
+.darker-link:hover {
+	color: rgba(255, 255, 255, 0.35);
+	background: transparent;
+	text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-header.header-spacer {
+	margin-top: 20px;
+}
+
+.carousel-retain-aspect {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+
+.blog {
+	background-color: #242424;
+
+	transition: transform 0.2s;
+}
+
+.blog:hover {
+	transform: scale(1.02);
+}
+
+.blog * {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 12px;
+}
+
+.blog h4, .blog h4 *{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.blog a {
+	text-decoration: underline;
+}
+
+.blog a:hover {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 500;
+}
+
+.text-gray { 
+	color: rgba(255, 255, 255, 0.35);
+}
+
+.bg-custom {
+	background-color: #1d1e1f;
+}
+
+#cred-box {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	width: 350px;
+	height: 335px;
+
+	padding: 20px;
+	box-sizing: border-box;
+
+	background-color: #242424;
+	border-radius: 8px;
+
+	text-align: right;
+}
+
+#login-window form input[type=text], #login-window form input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#login-window input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+	margin-bottom: 12px;
+}
+
+#login-window input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+#login-window h1 {
+	text-align: center;
+	color: #AAAAAA;
+
+	font-size: 28px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#login-window p, #login-window span {
+	text-align: center;
+	color: #999999;
+
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+
+	margin-bottom: 15px;
+}
+
+#login-window a {
+	text-align: right;
+	color: #999999;
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
