@@ -43,3 +43,5 @@ done
 
 rm t1.txt
 rm t2.txt
+
+echo -n 'wraithavengames.net' >docs/CNAME
