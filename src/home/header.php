@@ -47,8 +47,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<a href="home" id="wg-logo" class="navbar-brand text-left">Wraithaven
-				Games</a>
+			<a href="index" id="wg-logo" class="navbar-brand text-left">Wraithaven Games</a>
 
 			<button id="login-link" type="button" class="dark-link btn btn-primary p-0" data-toggle="modal" data-target="#login-window">Login</button>
 		</div>
@@ -56,7 +55,7 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="home">Home</a>
+					<a class="nav-link" href="index">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about">About</a>
@@ -72,16 +71,14 @@
 						<a class="dropdown-item dark-link" href="projects/unity">Unity Scripts</a>
 						<a class="dropdown-item dark-link" href="projects/ai">AI Experiements</a>
 
-						<div class="dropdown-header header-spacer">Textures and
-							Models</div>
+						<div class="dropdown-header header-spacer">Textures and Models</div>
 						<a class="dropdown-item dark-link" href="projects/3d">3D Models</a>
 						<a class="dropdown-item dark-link" href="projects/textures">Texture Packs</a>
 
 						<div class="dropdown-header header-spacer">Gallery</div>
 						<a class="dropdown-item dark-link" href="projects/conceptart">Concept Art</a>
 
-						<div class="dropdown-header header-spacer">Archived
-							Projects</div>
+						<div class="dropdown-header header-spacer">Archived Projects</div>
 						<a class="dropdown-item dark-link" href="projects/unfinished">Unfinished</a>
 					</div>
 				</li>

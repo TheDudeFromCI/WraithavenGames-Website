@@ -29,7 +29,7 @@ function solve() {
     fi
 }
 
-echo 'home' >t1.txt
+echo 'index' >t1.txt
 echo '' >t2.txt
 
 rm -r docs
