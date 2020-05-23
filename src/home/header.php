@@ -48,8 +48,6 @@
 			</button>
 
 			<a href="index" id="wg-logo" class="navbar-brand text-left">Wraithaven Games</a>
-
-			<button id="login-link" type="button" class="dark-link btn btn-primary p-0" data-toggle="modal" data-target="#login-window">Login</button>
 		</div>
 
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -85,28 +83,6 @@
 			</ul>
 		</div>
 	</nav>
-
-	<div id="login-window" class="modal fade">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content bg-custom">
-				<div class="p-4">
-					<button type="button" class="close text-gray" data-toggle="modal" data-target="#login-window">&times;</button>
-					<h1>Wraithaven Games</h1>
-					<p>Login</p>
-
-					<form id="login-form" method="post">
-						<input id="username" type="text" name="username" placeholder="Username" autocomplete="username" required />
-						<input id="password" type="password" name="password" placeholder="Password" autocomplete="current-password" required />
-						<input id="login-redir-link" type="hidden" name="redir" value="red" />
-						<input id="submit" type="submit" name="submit" value="Login" />
-					</form>
-
-					<a href="newaccount">Don't have an account?</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
 
 	<div class="container p-0">
 		<div class="d-none d-sm-block" style="height:50px"></div>
